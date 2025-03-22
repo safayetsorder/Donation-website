@@ -12,9 +12,10 @@
 </head>
 
 <body>
+    <!-- header start -->
     <header class="bg-gray-100">
 
-        <div class="flex justify-between items-center px-16 py-6">
+        <div class="flex justify-between items-center px-40 py-6">
             <div class="px-5 py-2 bg-lime-400 rounded ">
                 <a class="font-bold" href="">Blog</a>
             </div>
@@ -27,15 +28,158 @@
             <div class="flex gap-2">
                 <img src="/images/coin.png" alt="coin">
                 <div>
-                    5500 BDT
+                    <span id="totalCashAmount">5500</span> BDT
                 </div>
             </div>
         </div>
 
     </header>
+    <!-- header end  -->
+    <!-- button start  -->
+    <div class="flex justify-center gap-4 mt-8 mb-6">
+
+
+        <a class="font-bold px-5 py-2 bg-lime-400 rounded" href="">Donation</a>
+        <a class="px-5 py-2 border rounded" href="">History</a>
+
+    </div>
+    <!-- button end  -->
+    <!-- 3 cards start  -->
+    <!-- 1st card start  -->
+
+    <div class="w-4xl p-5 mx-auto bg-gray-100 rounded-lg shadow-2xl mb-6 flex gap-5 items-center">
+
+
+        <div class="w-full">
+            <img class="w-full " src="/images/noakhali.png" alt="">
+        </div>
+        <div class="w-full ">
+            <div class="flex gap-2  ">
+
+                <img src="/images/coin.png" alt="coin">
+                <div>
+                    <span id="noakhaliDonationAmount"> 0</span> BDT
+                </div>
+            </div>
+            <h3 class="font-bold text-xl mt-1">
+                Donation for Flood at Noakhali, Bangladesh
+            </h3>
+            <p class="mt-1">
+                ​Noakhali, Bangladesh, has been severely affected by recent floods, leaving many communities in
+                urgent
+                need of assistance. If you're looking to support relief efforts, here are several reputable
+                organizations actively providing aid to the affected populations. <br>
+
+                your contributions are directed appropriately. Your support can make a significant difference in the
+                lives of those affected by the floods in Noakhali.
+
+
+            </p>
+            <div class="mb-1"> <input id="noakhaliInput" class="w-full" type="text"></div>
+
+            <button id="noakhaliDonation"
+                class="block text-center font-bold w-full py-2 bg-emerald-500 rounded cursor-pointer hover:bg-emerald-600 text-white ">Donate
+                Now</button>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- 1st card end  -->
+    <!-- 2nd card start  -->
+    <div class="w-4xl p-5 mx-auto bg-gray-100 rounded-lg shadow-2xl mb-6 flex gap-5">
+
+        <div class="w-full">
+            <img class="w-full " src="/images/feni.png" alt="">
+        </div>
+        <div class="w-full ">
+            <div class="flex gap-2  ">
+
+                <img src="/images/coin.png" alt="coin">
+                <div>
+                    <span id="feniDonationAmount">600</span> BDT
+                </div>
+            </div>
+            <h3 class="font-bold text-xl mt-1">
+                Donation for Flood Relief in Feni, Bangladesh
+            </h3>
+            <p class="mt-1 ">
+                ​Several organizations are actively working to provide relief to flood victims in Feni, Bangladesh. Here
+                are some reputable options where you can contribute. <br> Penny Appeal USA is offering complete
+                emergency packs, including food, family essentials, and shelter, to flood victims in Bangladesh.
+                Donations can be made through their official website. Before making a donation, it's advisable to verify
+                the current status of these.
+
+
+            </p>
+            <div class="mb-1"> <input id="feniInput" class="w-full" type="text"></div>
+
+            <button id="feniDonation" class="block text-center font-bold w-full py-2 bg-lime-400 rounded cursor-pointer hover:bg-lime-600 hover:text-white transition duration-500
+
+                ">Donate
+                Now</button>
+
+        </div>
+    </div>
+    </div>
+    <!-- 2nd card end  -->
+
+    <!-- 3rd card start  -->
+
+
+    <div class="w-4xl p-5 mx-auto bg-gray-100 rounded-lg shadow-2xl mb-6 flex gap-5">
+
+        <div class="w-full">
+            <img class="w-full" src="/images/quota-protest.png" alt="">
+        </div>
+        <div class="w-full ">
+            <div class="flex gap-2  ">
+
+                <img src="/images/coin.png" alt="coin">
+                <div>
+                    <span id="aidDonationAmount">2400</span> BDT
+                </div>
+            </div>
+            <h3 class="font-bold text-xl mt-1">
+                Aid for Injured in the Quota Movement
+            </h3>
+            <p class="mt-1 ">
+                ​The 2024 quota reform movement in Bangladesh led to significant unrest, resulting in numerous injuries
+                among students and protesters. If you're looking to support relief efforts, here are several reputable
+                organizations actively providing aid to the affected populations. <br>
+                Before making a donation, it's advisable to visit the official websites of these organizations to
+                ensure
+                your contributions are directed appropriately. Your support can make a significant difference in the
+                lives of those affected by the floods in Noakhali.
+
+
+            </p>
+            <div class="mb-1"> <input id="aidInput" class="w-full" type="text"></div>
+
+            <button id="aidDonation"
+                class="block text-center font-bold w-full py-2 bg-lime-400 rounded cursor-pointer hover:bg-lime-600 ">Donate
+                Now</button>
+
+        </div>
+    </div>
+    </div>
+    <!-- 3rd card end  -->
+
+
+    <!-- 3 cards end  -->
 
 
 
+
+    <!-- 
+    <section>
+        <div id="users"></div>
+    </section> -->
+
+    <script src="/donation.js"></script>
+
+    <!-- <script src="/json.js"></script> -->
+    <!-- <script src="/main.js"></script> -->
 </body>
 
 </html>
